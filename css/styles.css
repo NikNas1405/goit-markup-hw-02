@@ -8,6 +8,7 @@
   --light-color: #f4f4fd;
   --main-font: "Roboto", "Intro", "Comfortaa", sans-serif;
   --secondary-font: "Raleway", "Intro", "Comfortaa", sans-serif;
+  --secondary-light-color: #ffffff;
 }
 
 body {
@@ -43,11 +44,13 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 /* header */
-.header {
-}
+
+/*can be used later    .header {} */
+
 .header-navigation {
-  background-color: #ffffff;
+  background-color: var(--secondary-light-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -63,6 +66,7 @@ body {
   text-transform: uppercase;
   color: var(--main-dark);
 }
+
 .logo:visited {
   color: var(--main-dark);
 }
@@ -70,24 +74,19 @@ body {
 .logo-accent {
   color: var(--primary-brand-color);
 }
+
 .logo-accent:visited {
   color: var(--primary-brand-color);
 }
 
-.header-list {
-}
-.header-item {
-}
+/* can be used later      .header-list {}  .header-item {}  .header-link {} */
 
-.header-link {
-}
 .header-link:hover,
 .header-link:focus {
   color: var(--pressed-state-color);
 }
 
-.header-address-list {
-}
+/*can be used later      .header-address-list {} */
 
 .header-mail {
   font-style: normal;
@@ -119,6 +118,7 @@ body {
 .footer {
   background-color: var(--main-dark);
 }
+
 .footer-logo {
   color: var(--light-color);
   font-family: var(--secondary-font);
@@ -131,6 +131,7 @@ body {
 .footer-logo-accent {
   color: var(--primary-brand-color);
 }
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
@@ -145,12 +146,13 @@ body {
 .hero {
   background-color: var(--background-hero-color);
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--secondary-light-color);
 }
 
 .btn {
@@ -161,7 +163,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--secondary-light-color);
 }
 
 .btn:hover,
@@ -170,18 +172,16 @@ body {
 }
 
 /* advantages */
-.advantages {
-}
-.advantage-list {
-}
-.advantage-item {
-}
+
+/* can be used later     .advantages {} .advantage-list {}  .advantage-item {} */
+
 .advantage-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .advantage-text {
   font-size: 16px;
   line-height: 1.5;
@@ -190,12 +190,7 @@ body {
 }
 
 /* about */
-.about {
-}
-.about-list {
-}
-.about-item {
-}
+/* can be used later     .about {} .about-list {} .about-item {} */
 
 /* Team */
 
@@ -209,11 +204,13 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.team-list {
-}
+
+/* can be used later      .team-list {} */
+
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--secondary-light-color);
 }
+
 .team-text {
   font-size: 16px;
   line-height: 1.5;
@@ -225,10 +222,8 @@ body {
 
 /* PORTFOLIO.HTML */
 
-.button-list {
-}
-.button-item {
-}
+/* can be used later    .button-list {}    .button-item {} */
+
 .gallery-button {
   font-family: inherit;
   background-color: var(--light-color);
@@ -244,11 +239,11 @@ body {
 .gallery-button:hover,
 .gallery-button:focus {
   background-color: var(--pressed-state-color);
-  color: #ffffff;
+  color: var(--secondary-light-color);
 }
 
 .photo-gallery-item {
-  background-color: #ffffff;
+  background-color: var(--secondary-light-color);
   border: 1px solid var(--accent-color);
 }
 
@@ -259,6 +254,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-dark);
 }
+
 .gallery-text {
   font-size: 16px;
   line-height: 1.5;
